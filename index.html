@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,shrink-to-fit=no"
+    />
+    <title>Video.js Demo</title>
+    <link href="https://vjs.zencdn.net/7.20.1/video-js.css" rel="stylesheet" />
+    <link
+      href="https://unpkg.com/@videojs/themes@1/dist/forest/index.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .my-video {
+        width: 800px;
+        height: 450px;
+      }
+    </style>
+  </head>
+  <body>
+    <video
+      class="my-video video-js vjs-theme-forest"
+      data-setup="{}"
+      controls
+      autoplay
+      muted
+    >
+      <source src="video.mp4" type="video/mp4" />
+    </video>
+    <script src="https://vjs.zencdn.net/7.20.1/video.min.js"></script>
+  </body>
+</html>

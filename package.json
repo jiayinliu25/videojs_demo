@@ -1,0 +1,14 @@
+{
+  "name": "wms-tiled",
+  "dependencies": {
+    "@videojs/themes": "1.0.1",
+    "video.js": "7.20.1"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0"
+  },
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build --public-url . index.html"
+  }
+}
